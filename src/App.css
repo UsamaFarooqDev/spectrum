@@ -1,0 +1,328 @@
+.App {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+nav {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+#navbar a {
+    width: 120px;
+    background-color: transparent;
+    color: goldenrod;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+    align-content: center;
+    padding: 7px;
+    margin-right: 2px;
+}
+
+#navbar a:hover {
+    border-right: 2px solid goldenrod;
+    border-left: 2px solid goldenrod;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a {
+    color: goldenrod;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 6%;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.banner {
+    width: 100%;
+}
+
+.animated {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.buttons {
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.buttons a {
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #daa520;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.buttons a:hover {
+    text-decoration: none;
+    background-color: gold;
+    transition: all 1s;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+#navbar {
+    margin-left: 20%;
+}
+
+#aboutus {
+    margin-top: 60px;
+}
+
+#aboutus h1 {
+    color: goldenrod;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+#services .card {
+    padding: 10px;
+    border: none;
+    border-right: 1px dotted goldenrod;
+}
+
+#services img {
+    width: 150px;
+}
+
+#services h1 {
+    color: goldenrod;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+#services h5 {
+    color: goldenrod;
+}
+
+#contact {
+    background-image: url('../src/images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    color: #daa520;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#contact h1 {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+
+#contact form {
+    background-color: rgba(3, 3, 3, 0.493);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid goldenrod;
+}
+
+#contact input[type=submit] {
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+    background-color: transparent;
+    color: #daa520;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#contact input[type=submit]:hover {
+    background-color: #daa520;
+    color: white;
+    transition: all 1s;
+}
+
+.reg_header {
+    background-image: url("../src/images/1s.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+}
+
+.reg_header .row {
+    z-index: 2;
+}
+
+.reg_header h1 {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    padding: 10px;
+    color: #ffcd50;
+    background-color: rgba(44, 44, 44, 0.356);
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.reg {
+    background-color: #81734B;
+    color: white;
+    padding: 40px;
+}
+
+.btn_reg {
+    width: 150px;
+    padding: 20px;
+    background-color: #81734B;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.btn_reg:hover {
+    text-decoration: none;
+    background-color: #a79462;
+    color: white;
+    transition: all 1s;
+}
+
+#footer {
+    padding: 40px;
+    background-color: #1f1f1f;
+    margin-top: 30px;
+}
+
+#footer h4 {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+}
+
+#footer a {
+    color: #fcce5c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#footer i {
+    margin: 4px;
+    cursor: pointer;
+    color: #fcce5c;
+}
+
+#footer i:hover {
+    color: white;
+}
+
+#footer i font {
+    font-size: 12px;
+    display: inline;
+    margin-left: 4px;
+}
+
+@media only screen and (max-width: 1028px) {
+    .buttons {
+        top: 40%;
+    }
+    nav {
+        min-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .buttons {
+        top: 20%;
+        left: 37%;
+    }
+    nav {
+        min-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttons {
+        top: 20%;
+        left: 40%;
+    }
+    .buttons a {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    nav {
+        min-height: 50px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap');

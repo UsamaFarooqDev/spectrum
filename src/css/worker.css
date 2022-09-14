@@ -1,0 +1,311 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.header {
+    background-color: #2E353D;
+    color: white;
+    min-height: 12vh;
+    border-bottom: 1px solid #434b55;
+}
+
+.header h4 {
+    line-height: 12vh;
+}
+
+.header img {
+    margin-top: 6px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.sidebar {
+    height: auto;
+    min-height: 88vh;
+    background-color: #2E353D;
+}
+
+.sidebar a {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.sidebar a:hover {
+    background-color: white;
+    color: #2E353D;
+    transition: all 0.8s;
+    text-decoration: none;
+}
+
+.cardsp {
+    background-color: rgb(28, 189, 135);
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    height: 30vh;
+}
+
+.cardsp input {
+    color: white;
+    background-color: rgb(16, 165, 115);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardap {
+    background-color: rgb(15, 151, 185);
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    height: 30vh;
+}
+
+.cardrp {
+    background-color: rgb(243, 12, 31);
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    height: 30vh;
+}
+
+.cardrpp {
+    background-color: rgb(219, 235, 8);
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    height: 30vh;
+}
+
+.cardrpp input {
+    color: white;
+    background-color: rgb(213, 228, 13);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardap input {
+    color: white;
+    background-color: rgb(12, 136, 167);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardrp input {
+    color: white;
+    background-color: rgb(221, 14, 31);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+#btns .form-control:focus {
+    background-color: transparent;
+    outline: 0 none;
+    color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.cardsp input:focus {
+    color: white;
+    background-color: rgb(16, 165, 115);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardap input:focus {
+    color: white;
+    background-color: rgb(12, 136, 167);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardrp input:focus {
+    color: white;
+    background-color: rgb(221, 14, 31);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cardrpp input:focus {
+    color: white;
+    background-color: rgb(213, 228, 13);
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.jobs p {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+}
+
+.latestjobs {
+    height: 50vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.37);
+    margin-left: 2px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border-radius: 10px;
+}
+
+.latestjobs h1 {
+    background-color: rgb(219, 171, 37);
+    color: white;
+    line-height: 10vh;
+}
+
+.latestjobs::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.companies::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.latestjobs::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+.companies::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+.latestjobs::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(219, 171, 37);
+}
+
+.companies::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(219, 171, 37);
+}
+
+.jobs a {
+    font-size: 22px;
+}
+
+.jobs a:hover {
+    text-decoration: none;
+}
+
+.companies {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.companies img {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.438);
+    margin-right: 10px;
+}
+
+.companies a {
+    font-size: 22px;
+    color: #2E353D;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.companies a,
+img {
+    margin-bottom: 20px;
+}
+
+.companies h3 {
+    background-color: #DBAB25;
+    color: white;
+    padding: 10px;
+}
+
+.companies a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.login {
+    min-height: 88vh;
+    height: auto;
+    background-color: #2E353D;
+    color: white;
+}
+
+.login form {
+    margin-top: 18vh;
+}
